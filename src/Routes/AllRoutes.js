@@ -7,10 +7,20 @@ import Todo from "../Pages/Todo";
 import Privateroute from "./Privateroute";
 import Notfound from "../Pages/Notfound";
 import Me from "../Pages/Me";
+import Adminpage from "../Pages/Adminpage";
 
 const AllRoutes = () => {
   return (
     <Routes>
+      <Route
+        path="/"
+        element={
+          <Privateroute>
+            {" "}
+            <Todo />{" "}
+          </Privateroute>
+        }
+      ></Route>
       <Route
         path="/"
         element={

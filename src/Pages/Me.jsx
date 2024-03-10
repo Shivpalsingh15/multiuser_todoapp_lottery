@@ -64,12 +64,13 @@ function Me(props) {
             </h2>
             <div className="text-amber-900 font-extrabold">
               <li>Login & Logout functionality</li>
+              <li>Form Validations</li>
               <li>User Relationalship</li>
               <li>Error Handling's & Toaster</li>
               <li>Conditional Rendering</li>
-              <li>Routes & Dynamic Routing</li>
+              <li>Routes, Private routes & Dynamic Routing</li>
               <li>Json-server used as Backend</li>
-              <li>Axios used for api requests</li>
+              <li>Axios for api requests</li>
               <li>State management & Local storage</li>
             </div>
           </div>
